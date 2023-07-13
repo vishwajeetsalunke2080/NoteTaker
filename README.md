@@ -19,7 +19,7 @@ XML Configurations
 
 ## Project Outputs
 
-![Home] /projectImages/home
-![Home] /projectImages/addNote
-![Home] /projectImages/showNote
-![Home] /projectImages/home1
+! [Home] projectImages/home
+! [add note dialog] projectImages/addNote
+! [show note dialog] projectImages/showNote
+! [home screen ] projectImages/home1
