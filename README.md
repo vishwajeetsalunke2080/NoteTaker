@@ -19,7 +19,7 @@ XML Configurations
 
 ## Project Outputs
 
-! [Home] projectImages/home
-! [add note dialog] projectImages/addNote
-! [show note dialog] projectImages/showNote
-! [home screen ] projectImages/home1
+![Home] (https://github.com/vishwajeetsalunke2080/NoteTaker/blob/master/projectImages/home.png)
+![add note dialog] (https://github.com/vishwajeetsalunke2080/NoteTaker/blob/master/projectImages/addNote.png)
+![show note dialog] (https://github.com/vishwajeetsalunke2080/NoteTaker/blob/master/projectImages/showNote.png)
+![home screen ] (https://github.com/vishwajeetsalunke2080/NoteTaker/blob/master/projectImages/home1.png)
