@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-configuration SYSTEM 
+"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+
+		<property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+		<property name="connection.url">jdbc:mysql://localhost:3306/notetakerdb</property>
+		<property name="connection.username">root</property>
+		<property name="connection.password">Sins@2580</property>
+
+		<!--this property ensures the dialect or the default language use for communicating 
+			with Hibernate and MySQL -->
+		<property name="dialect">org.hibernate.dialect.MySQL8Dialect</property>
+
+		<!-- this property will map class which is declared as a entity to actual 
+			table in DB if exists or will create if needed -->
+		<property name="hbm2ddl.auto">update</property>
+
+		<!-- this is a property to show the auto generated query by hibernate -->
+		<property name="show_sql">true</property>
+		<property name="format_sql">true</property>
+		<!-- this property maps the provided class as a entity in DB using hbm2ddl -->
+
+		<!-- <mapping class="com.hibernate.tutorial.Student" />
+		<mapping class="com.hibernate.tutorial.Address" /> -->
+		<mapping class="com.entities.note"/>
+		
+	</session-factory>
+</hibernate-configuration>
